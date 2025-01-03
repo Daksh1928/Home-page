@@ -1,0 +1,147 @@
+.indexbody {
+
+    background-image: url(gdf.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    height: 30px;
+    width: 260px;
+    font-size: 1rem;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#idivm {
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-left: 500px;
+    margin-top: 50px;
+    transition: .50s;
+}
+
+#idivm:hover {
+    background-color: #f1f1f1;
+
+    box-shadow: 10px 10px 10px gray;
+}
+
+#idivm:active {
+    background-color: #f1f1f1;
+    transition: 0.20s;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#butindex {
+    background-color: #1877F2;
+    text-align: center;
+    font-size: 1.1rem;
+    border: 2px solid blue;
+    height: 50px;
+    width: 280px;
+    transition: .15s;
+}
+#butindex:hover{
+    box-shadow: 10px 10px 10px grey;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    height: 40px;
+    width: 160px;
+    font-size: 1rem;
+    padding: 4px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: palegreen;
+    border: 2px solid green;
+    margin-left: 65px;
+    transition: background-color .25s, color 1s, box-shadow 1s;
+}
+
+.but:hover {
+    background-color: green;
+    color: white;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#pip {
+    display: flex;
+    text-align: end;
+    margin: auto;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 120px;
+}
+
+.indexa {
+    margin-left: 180px;
+    /* margin: auto; */
+}
+
+/* Index page code end here  */
+/* Sign page code start from here  */
+
+
+/* Sign in end here  */
+/* contine with google start here  */
+
+.cwgbody {
+    background-color: #1A1A1A;
+    justify-content: center;
+}
+
+.cwgdivh {
+    background-color: black;
+    margin: auto;
+
+    width: 50%;
+    padding: 20px;
+    border: 2px solid wheat;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    border: 1px solid white;
+    margin-top: 200px;
+    float: left;
+}
+
+#cwgdivinh {
+    border: 2px solid white;
+    float: left;
+
+}
+
+.cwgp {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
